@@ -11,6 +11,6 @@ basic.showIcon(IconNames.Yes)
 basic.forever(function () {
     basic.showIcon(IconNames.Square)
 })
-loops.everyInterval(200, function () {
+loops.everyInterval(400, function () {
     radio.sendValue("hdg", input.compassHeading())
 })
